@@ -10,7 +10,6 @@ import { useContext, useState } from "react";
 function SinglePage() {
 
   const post = useLoaderData();
-  console.log(post)
   const [saved, setSaved] = useState(post.isSaved);
   const { currentUser } = useContext(AuthContext);
   const navigate = useNavigate();
