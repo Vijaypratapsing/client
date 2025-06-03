@@ -9,7 +9,7 @@ function Pin({ item }) {
             <div className="popupContainer">
               <img src={item.images} alt="" />
               <div className="textContainer">
-                <Link to={`/${item.id}`}>{item.title}</Link>
+                <Link to={`/post/${item.id}`}>{item.title}</Link>
                 <span>{item.bedrooms} bedroom</span>
                 <b>$ {item.price}</b>
               </div>
