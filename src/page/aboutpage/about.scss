@@ -1,0 +1,60 @@
+.about-us {
+    padding: 40px;
+    background-color: #f4f4f4;
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  
+    .team {
+      margin-top: 40px;
+      
+      .team-members {
+        display: flex;
+        gap: 20px;
+        
+        .team-member {
+          flex: 1;
+          text-align: center;
+          
+          img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+  
+          h3 {
+            margin-top: 10px;
+            font-size: 18px;
+          }
+  
+          p {
+            font-size: 16px;
+            color: gray;
+          }
+        }
+      }
+    }
+  
+    .mission, .values {
+      margin-top: 40px;
+      
+      h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+      }
+  
+      p, ul {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+  
