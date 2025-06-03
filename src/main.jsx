@@ -15,7 +15,7 @@ import { listPageLoader, profilePageLoader, singlePageLoader } from './lib/loade
 import List from './page/listpage/List.jsx';
 import { SocketContextProvider } from './context/SocketContext.jsx';
 import AboutUs from './page/aboutpage/AboutUs.jsx';
-import ContactUs from './page/contactpage/contactUs.jsx';
+import Contact from './page/contactpage/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <ContactUs />,
+        element: <Contact />,
       },
       {
         path: "/list",

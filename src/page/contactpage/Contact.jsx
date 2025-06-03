@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./contact.scss";
 //import axiosRequest from "../../lib/axiosfile"; // If you want to send the form data to your backend
 
-const ContactUs = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -83,4 +83,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contact;
