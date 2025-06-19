@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="container">
         <h1>About Us</h1>
         <p>
-          Welcome to , a leading company in [industry]. Our mission is to provide excellent services and innovative solutions that improve lives and businesses globally.
+          Welcome to , a leading company in HomiFi. Our mission is to provide excellent services and innovative solutions that improve lives and businesses globally.
         </p>
 
         <div className="team">
@@ -34,7 +34,7 @@ const AboutUs = () => {
         <div className="mission">
           <h2>Our Mission</h2>
           <p>
-            Our goal is to revolutionize the [industry] by delivering user-friendly, efficient, and effective solutions that drive success for our clients and partners. We strive to foster innovation, creativity, and excellence in all our endeavors.
+            Our goal is to revolutionize the HomiFi by delivering user-friendly, efficient, and effective solutions that drive success for our clients and partners. We strive to foster innovation, creativity, and excellence in all our endeavors.
           </p>
         </div>
 

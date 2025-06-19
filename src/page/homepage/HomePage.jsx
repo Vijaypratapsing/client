@@ -8,7 +8,8 @@ function HomePage() {
         <div className="textContainer">
             <div className="wrapper">
                 <h1 className='title'>Find Real Estate & Get Your Dream Place</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat adipisci mollitia ea nemo molestias provident amet culpa, minima a. Cum, architecto eveniet? Harum, deserunt nisi accusamus facilis placeat enim neque?</p>
+                <p>Discover your dream home in the heart of the city. This stunning 3BHK apartment offers spacious living, modern amenities, and a peaceful environment. Perfect for families or professionals seeking comfort and convenience.</p>
+
             <SearchBar/>
             <div className="boxes">
              <div className="box">
